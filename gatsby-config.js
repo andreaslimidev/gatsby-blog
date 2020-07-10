@@ -20,7 +20,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
-    {
+    { 
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
