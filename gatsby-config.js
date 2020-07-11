@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Skynd deg langsomt.`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Randi Larsen`,
+      summary: `skriver om livet og alt rundt.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      pinterest: `randilarsen714`,
     },
   },
   plugins: [
@@ -20,7 +20,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
-    { 
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
